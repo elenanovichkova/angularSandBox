@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'
 
 import { AppComponent }  from './app.component';
-import { UserComponent }  from './components/user.component';
+import { HeroDetailComponent }  from './components/hero-detail.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, UserComponent ],
+  declarations: [ AppComponent, HeroDetailComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
